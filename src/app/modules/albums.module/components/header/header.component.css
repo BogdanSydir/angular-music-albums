@@ -1,0 +1,20 @@
+.header{
+  height:100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__options_bar{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button{
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  margin: 25px;
+}

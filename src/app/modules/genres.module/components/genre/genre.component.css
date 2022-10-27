@@ -1,0 +1,15 @@
+.genreCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  background-image: url(src/assets/images/genres_background.jpg);
+  cursor: pointer;
+}
+
+h2 {
+  color: brown;
+  text-transform: uppercase;
+}

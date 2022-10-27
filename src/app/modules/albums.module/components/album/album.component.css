@@ -1,0 +1,37 @@
+.album_box {
+  position: relative;
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.album_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: black;
+  position: absolute;
+  top: -1%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.album_info {
+  color: white;
+  text-align: center;
+}
+
+.album_box:hover .album_card {
+  opacity: 1;
+}
+
+.heart {
+  width: 40px;
+  height: 40px;
+}
+

@@ -1,0 +1,9 @@
+.genresContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  gap: 30px;
+  width: 1000px;
+}

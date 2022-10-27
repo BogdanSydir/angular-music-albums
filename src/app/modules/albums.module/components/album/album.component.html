@@ -1,0 +1,13 @@
+<div class="album_box" (click)="toggleFavorite()">
+  <div *ngFor="let image of album.image">
+    <img *ngIf="image.size ==='large'" class="poster" src="{{image['#text']}}" alt="image">
+  </div>
+
+<!-- on hower below-->
+  <div class="album_card">
+    <h3 class="album_info">{{album.name}}</h3>
+    <h4 class="album_info">{{album.artist.name}}</h4>
+    <img *ngIf="!liked" class="heart" src="assets/images/heart-icon-empty.png" alt="heart">
+    <img *ngIf="liked" class="heart" src="assets/images/heart-icon-filled.png" alt="heart">
+  </div>
+</div>

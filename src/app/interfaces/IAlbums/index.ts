@@ -1,0 +1,7 @@
+export * from './IAlbums'
+export * from './IImage'
+export * from './IAttr'
+export * from './IAttrAlbum'
+export * from './IAlbum'
+export * from './IArtist'
+export * from './IResponse'
